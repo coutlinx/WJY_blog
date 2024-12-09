@@ -1,0 +1,3 @@
+[2024-12-09 17:15:59]	[ERROR]	[pkg/jwt.go:48]	SignedString Error:	{"error": "key is of invalid type"}
+[2024-12-09 17:16:35]	[ERROR]	[pkg/jwt.go:48]	SignedString Error:	{"error": "key is of invalid type"}
+[2024-12-09 17:17:14]	[ERROR]	[pkg/jwt.go:48]	SignedString Error:	{"error": "key is of invalid type"}

@@ -1,0 +1,96 @@
+
+2024/12/09 16:27:19 C:/Users/Administrator/Desktop/wjy_BlogProject/init/initDatabase.go:49
+[error] failed to initialize database, got error Error 1049 (42000): Unknown database 'wjy_blog'
+
+2024/12/09 17:15:59 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:39
+[3.379ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`email`,`salt`) VALUES ('2024-12-09 17:15:59.314','2024-12-09 17:15:59.314','','','6DYpAOoRq8ar0UnO')
+
+2024/12/09 17:16:35 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:39
+[14.033ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`email`,`salt`) VALUES ('2024-12-09 17:16:35.102','2024-12-09 17:16:35.102','','','mCv59alasvqV7m4O')
+
+2024/12/09 17:17:14 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:39
+[11.027ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`email`,`salt`) VALUES ('2024-12-09 17:17:14.229','2024-12-09 17:17:14.229','','','ecglFCIdkuKtX1iz')
+
+2024/12/09 17:18:44 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:39
+[5.154ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`email`,`salt`) VALUES ('2024-12-09 17:18:44.519','2024-12-09 17:18:44.519','','','reSIeuF0SGBvCKNU')
+
+2024/12/09 17:19:00 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:46
+[0.000ms] [rows:1] SELECT * FROM `blog_user` WHERE user_name = '' OR Email = '' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 17:20:41 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:40
+[13.024ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`account`,`email`,`salt`) VALUES ('2024-12-09 17:20:41.731','2024-12-09 17:20:41.731','','','','vxiaxGxEorEPLXSX')
+
+2024/12/09 17:22:20 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:40
+[2.514ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`account`,`email`,`salt`) VALUES ('2024-12-09 17:22:20.701','2024-12-09 17:22:20.701','','','','njz5XAF4jQk3LeGc')
+
+2024/12/09 17:22:37 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:40
+[14.029ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`account`,`email`,`salt`) VALUES ('2024-12-09 17:22:37.174','2024-12-09 17:22:37.174','','','','cYcGM0cUmHseBBJt')
+
+2024/12/09 17:23:42 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:40
+[14.124ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`account`,`email`,`salt`) VALUES ('2024-12-09 17:23:42.374','2024-12-09 17:23:42.374','','','','TCJF04wgvoaRl1Zv')
+
+2024/12/09 17:23:56 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:40
+[13.804ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`account`,`email`,`salt`) VALUES ('2024-12-09 17:23:56.625','2024-12-09 17:23:56.625','','','1402284023@qq.com','XCFxFnFpcO4dq6PP')
+
+2024/12/09 17:24:08 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:47
+[0.000ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 17:24:46 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:47
+[0.534ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 17:25:02 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:47
+[0.564ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 17:26:36 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:40
+[1.513ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`account`,`email`,`password`,`salt`) VALUES ('2024-12-09 17:26:36.165','2024-12-09 17:26:36.165','','','1402284023@qq.com','daf6519a72cebcf350790e135268181182cf038859b66f944e353c174913dc08','T5RxhkCPIDrWVDKi')
+
+2024/12/09 17:26:52 C:/Users/Administrator/Desktop/wjy_BlogProject/internal/models/user.go:47
+[0.549ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:05:27 C:/Users/14022/Desktop/wjy_BlogProject/init/initDatabase.go:49
+[error] failed to initialize database, got error dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it.
+
+2024/12/09 20:08:52 C:/Users/14022/Desktop/wjy_BlogProject/init/initDatabase.go:49
+[error] failed to initialize database, got error Error 1130: Host '117.44.164.119' is not allowed to connect to this MySQL server
+
+2024/12/09 20:18:57 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:40
+[87.904ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`account`,`email`,`password`,`salt`) VALUES ('2024-12-09 20:18:57.007','2024-12-09 20:18:57.007','','','1402284023@qq.com','541d1f3256c3ef938a9b04d66f074f1595f447e2efbb1cf9887f8510cdd955b0','4nAevey417Xr2yl4')
+
+2024/12/09 20:24:48 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[39.871ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:25:49 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[39.739ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:28:04 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:40
+[90.940ms] [rows:1] INSERT INTO `blog_user` (`CreateTime`,`UpdateTime`,`user_name`,`account`,`email`,`password`,`salt`) VALUES ('2024-12-09 20:28:04.313','2024-12-09 20:28:04.313','','','1402284023@qq.com','3a9fb68a9a24d2f427bc6cf5e0c8159b706f5ad988fb50d1c75d518a2fb71ab3','BkDQ7NaUF6tQt9WD')
+
+2024/12/09 20:28:15 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[40.225ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:31:00 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[40.152ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:31:25 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[39.646ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:32:00 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[39.860ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:32:04 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[39.830ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:32:20 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[39.832ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:32:44 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[39.724ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:33:07 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[42.703ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:33:11 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[39.931ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1
+
+2024/12/09 20:33:14 C:/Users/14022/Desktop/wjy_BlogProject/internal/models/user.go:47
+[39.870ms] [rows:1] SELECT * FROM `blog_user` WHERE account = '' OR email = '1402284023@qq.com' ORDER BY `blog_user`.`Id` LIMIT 1

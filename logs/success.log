@@ -1,0 +1,228 @@
+[2024-11-13 15:33:59]	[INFO]	[init/init.go:43]	日志初始化成功  [2024-11-13 15:54:09]	[INFO]	[init/init.go:44]	日志初始化成功  [2024-11-13 15:54:27]	[INFO]	[init/InitLogger.go:39]	日志初始化成功  [2024-11-13 15:54:27]	[INFO]	[init/InitSystem.go:19]	系统初始化成功:
+ENV[%s]	Name:[%s]localashui_mj_studio  [2024-11-13 15:55:52]	[INFO]	[init/InitLogger.go:39]	日志初始化成功  [2024-11-13 15:55:52]	[INFO]	[init/InitSystem.go:19]	系统初始化成功:
+ENV[%s]	Name:[%s]localashui_mj_studio  [2024-11-13 15:56:34]	[INFO]	[init/InitLogger.go:39]	日志初始化成功!!!
+  [2024-11-13 15:56:34]	[INFO]	[init/InitSystem.go:19]	系统初始化成功:
+ENV[%s]	Name:[%s]
+localashui_mj_studio  [2024-11-13 15:59:02]	[INFO]	[init/InitLogger.go:39]	日志初始化成功!!!
+  [2024-11-13 15:59:02]	[INFO]	[init/InitSystem.go:19]	env:[local]	name:ashui_mj_studio
+  [2024-11-13 15:59:13]	[INFO]	[init/InitLogger.go:39]	日志初始化成功!!!
+  [2024-11-13 15:59:13]	[INFO]	[init/InitSystem.go:19]	env:[local]name:ashui_mj_studio
+  [2024-11-13 15:59:32]	[INFO]	[init/InitLogger.go:39]	日志初始化成功
+  [2024-11-13 15:59:32]	[INFO]	[init/InitSystem.go:19]	env:[local]name:ashui_mj_studio
+  [2024-11-13 15:59:53]	[INFO]	[init/InitLogger.go:39]	日志初始化成功
+  [2024-11-13 15:59:53]	[INFO]	[init/InitSystem.go:19]	env:[local]name:ashui_mj_studio  [2024-12-06 14:02:14]	[INFO]	[init/InitLogger.go:40]	日志初始化成功
+  [2024-12-06 14:02:14]	[INFO]	[init/InitSystem.go:19]	env:[local]	name:ashui_mj_studio  [2024-12-06 14:24:15]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-06 14:24:15]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-06 14:24:15]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898  [2024-12-06 14:24:46]	[INFO]	[middleware/logger.go:24]	/	{"status": 404, "method": "GET", "path": "/", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-06 14:24:46]	[INFO]	[middleware/logger.go:24]	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-06 14:24:51]	[INFO]	[middleware/logger.go:24]	/health	{"status": 200, "method": "GET", "path": "/health", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 15:00:49]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-09 15:00:49]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-09 15:01:29]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-09 15:01:29]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-09 15:02:16]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-09 15:02:16]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-09 15:03:38]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-09 15:03:38]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-09 15:03:40]	[INFO]	[init/initDatabase.go:34]	初始化数据库成功
+  [2024-12-09 15:04:21]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-09 15:04:21]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-09 15:04:24]	[INFO]	[init/initDatabase.go:34]	初始化数据库成功
+  [2024-12-09 15:05:01]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-09 15:05:01]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-09 15:05:01]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+  [2024-12-09 15:05:03]	[INFO]	[models/models.go:38]	All tables AutoMigrate success!   [2024-12-09 15:05:03]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898  [2024-12-09 16:27:19]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-09 16:27:19]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-09 16:27:51]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-09 16:27:51]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-09 16:27:51]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+  [2024-12-09 16:27:51]	[INFO]	[models/models.go:38]	All tables AutoMigrate success!   [2024-12-09 16:27:51]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898  [2024-12-09 16:32:56]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-09 16:32:56]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-09 16:32:56]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+  [2024-12-09 16:32:56]	[INFO]	[models/models.go:38]	All tables AutoMigrate success!   [2024-12-09 16:32:56]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898  [2024-12-09 16:33:37]	[INFO]	[middleware/logger.go:24]	/swagger/index.html	{"status": 200, "method": "GET", "path": "/swagger/index.html", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0005326}  [2024-12-09 16:33:37]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui.css	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui.css", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 16:33:37]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui-bundle.js	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui-bundle.js", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0016178}  [2024-12-09 16:33:37]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui-standalone-preset.js	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui-standalone-preset.js", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0006311}  [2024-12-09 16:33:37]	[INFO]	[middleware/logger.go:24]	/swagger/favicon-32x32.png	{"status": 200, "method": "GET", "path": "/swagger/favicon-32x32.png", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 16:33:37]	[INFO]	[middleware/logger.go:24]	/swagger/doc.json	{"status": 500, "method": "GET", "path": "/swagger/doc.json", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 16:36:19]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-09 16:36:19]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-09 16:36:19]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+  [2024-12-09 16:36:19]	[INFO]	[models/models.go:38]	All tables AutoMigrate success!   [2024-12-09 16:36:19]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898  [2024-12-09 16:36:24]	[INFO]	[middleware/logger.go:24]	/swagger/index.html	{"status": 200, "method": "GET", "path": "/swagger/index.html", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0005249}  [2024-12-09 16:36:24]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui.css	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui.css", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0009729}  [2024-12-09 16:36:24]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui-bundle.js	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui-bundle.js", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0013544}  [2024-12-09 16:36:24]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui-standalone-preset.js	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui-standalone-preset.js", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.000511}  [2024-12-09 16:36:24]	[INFO]	[middleware/logger.go:24]	/swagger/favicon-32x32.png	{"status": 200, "method": "GET", "path": "/swagger/favicon-32x32.png", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 16:36:24]	[INFO]	[middleware/logger.go:24]	/swagger/doc.json	{"status": 500, "method": "GET", "path": "/swagger/doc.json", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 16:36:24]	[INFO]	[middleware/logger.go:24]	/swagger/favicon-32x32.png	{"status": 304, "method": "GET", "path": "/swagger/favicon-32x32.png", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 16:57:05]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+  [2024-12-09 16:57:05]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log  [2024-12-09 16:57:05]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+  [2024-12-09 16:57:05]	[INFO]	[models/models.go:38]	All tables AutoMigrate success!   [2024-12-09 16:57:05]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898  [2024-12-09 16:57:09]	[INFO]	[middleware/logger.go:24]	/swagger/index.html	{"status": 200, "method": "GET", "path": "/swagger/index.html", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0005636}  [2024-12-09 16:57:09]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui.css	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui.css", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 16:57:09]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui-bundle.js	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui-bundle.js", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.001055}  [2024-12-09 16:57:09]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui-standalone-preset.js	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui-standalone-preset.js", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 16:57:09]	[INFO]	[middleware/logger.go:24]	/swagger/favicon-32x32.png	{"status": 200, "method": "GET", "path": "/swagger/favicon-32x32.png", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 16:57:09]	[INFO]	[middleware/logger.go:24]	/swagger/doc.json	{"status": 200, "method": "GET", "path": "/swagger/doc.json", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 16:57:09]	[INFO]	[middleware/logger.go:24]	/swagger/favicon-32x32.png	{"status": 304, "method": "GET", "path": "/swagger/favicon-32x32.png", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 16:57:13]	[INFO]	[middleware/logger.go:24]	/swagger/doc.json	{"status": 200, "method": "GET", "path": "/swagger/doc.json", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}  [2024-12-09 17:11:47]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:11:47]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:11:47]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:11:47]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 17:11:47]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 17:12:00]	[INFO]	[middleware/logger.go:24]	/swagger/index.html	{"status": 200, "method": "GET", "path": "/swagger/index.html", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0005511}
+[2024-12-09 17:12:00]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui.css	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui.css", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 17:12:00]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui-bundle.js	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui-bundle.js", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0019939}
+[2024-12-09 17:12:00]	[INFO]	[middleware/logger.go:24]	/swagger/swagger-ui-standalone-preset.js	{"status": 200, "method": "GET", "path": "/swagger/swagger-ui-standalone-preset.js", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.001001}
+[2024-12-09 17:12:00]	[INFO]	[middleware/logger.go:24]	/swagger/favicon-32x32.png	{"status": 200, "method": "GET", "path": "/swagger/favicon-32x32.png", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 17:12:00]	[INFO]	[middleware/logger.go:24]	/swagger/doc.json	{"status": 500, "method": "GET", "path": "/swagger/doc.json", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 17:12:44]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:12:44]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:12:44]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:12:44]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 17:12:44]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 17:15:59]	[ERROR]	[pkg/jwt.go:48]	SignedString Error:	{"error": "key is of invalid type"}
+[2024-12-09 17:15:59]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 500, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 0.0075968}
+[2024-12-09 17:16:35]	[ERROR]	[pkg/jwt.go:48]	SignedString Error:	{"error": "key is of invalid type"}
+[2024-12-09 17:16:35]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 500, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 0.0167924}
+[2024-12-09 17:17:11]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:17:11]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:17:11]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:17:11]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 17:17:11]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 17:17:14]	[ERROR]	[pkg/jwt.go:48]	SignedString Error:	{"error": "key is of invalid type"}
+[2024-12-09 17:17:14]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 400, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 0.0119276}
+[2024-12-09 17:18:40]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:18:40]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:18:40]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:18:40]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 17:18:40]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 17:18:44]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 200, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 0.0051542}
+[2024-12-09 17:19:00]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 0}
+[2024-12-09 17:20:33]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:20:33]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:20:33]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:20:33]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 17:20:33]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 17:20:41]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 200, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 0.0134548}
+[2024-12-09 17:22:20]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 200, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 0.0027283}
+[2024-12-09 17:22:37]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 200, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 0.0140291}
+[2024-12-09 17:22:40]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:22:40]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:22:40]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:22:40]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 17:22:40]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 17:22:48]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:22:48]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:22:48]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:22:48]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 17:22:48]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 17:23:42]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 200, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 45.7566471}
+[2024-12-09 17:23:43]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:23:43]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:23:43]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:23:43]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 17:23:43]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 17:24:02]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 200, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 12.7384676}
+[2024-12-09 17:24:08]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 0}
+[2024-12-09 17:24:46]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 6.2982679}
+[2024-12-09 17:25:44]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 43.4066085}
+[2024-12-09 17:25:45]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:25:45]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:25:45]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:25:45]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 17:25:45]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 17:25:50]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:25:50]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:25:50]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:26:01]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:26:01]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:26:02]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:26:31]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 17:26:31]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 17:26:31]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 17:26:31]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 17:26:31]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 17:26:37]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 200, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 1.7460819}
+[2024-12-09 17:26:58]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 200, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Apifox/1.0.0 (https://apifox.com)", "errors": "", "cost": 9.9422292}
+[2024-12-09 20:05:27]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 20:05:27]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 20:08:52]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 20:08:52]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 20:09:16]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 20:09:16]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 20:09:16]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 20:09:16]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 20:09:41]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 20:09:41]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 20:09:41]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 20:09:41]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 20:09:59]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 20:09:59]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 20:09:59]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 20:10:00]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 20:11:08]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 20:11:08]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 20:11:08]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 20:11:08]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 20:11:50]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 20:11:50]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 20:11:50]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 20:11:51]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 20:11:51]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 20:12:04]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 20:12:04]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 20:12:04]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 20:12:05]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 20:12:05]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 20:13:09]	[INFO]	[middleware/logger.go:24]	/	{"status": 404, "method": "GET", "path": "/", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:13:09]	[INFO]	[middleware/logger.go:24]	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:13:13]	[INFO]	[middleware/logger.go:24]	/register	{"status": 200, "method": "GET", "path": "/register", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:14:33]	[INFO]	[middleware/logger.go:24]	/register	{"status": 200, "method": "GET", "path": "/register", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:15:28]	[INFO]	[middleware/logger.go:24]	/register	{"status": 200, "method": "GET", "path": "/register", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:18:49]	[INFO]	[middleware/logger.go:24]	/register	{"status": 200, "method": "GET", "path": "/register", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0010482}
+[2024-12-09 20:18:50]	[INFO]	[middleware/logger.go:24]	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:19:15]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 200, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 18.7349737}
+[2024-12-09 20:24:29]	[INFO]	[init/InitLogger.go:31]	日志初始化成功
+
+[2024-12-09 20:24:29]	[INFO]	[init/InitSystem.go:16]	env:[dev]	name:log
+[2024-12-09 20:24:29]	[INFO]	[init/initDatabase.go:33]	初始化数据库成功
+
+[2024-12-09 20:24:29]	[INFO]	[models/models.go:38]	All tables AutoMigrate success! 
+[2024-12-09 20:24:29]	[INFO]	[cmd/main.go:31]	服务启动成功，访问地址为：http://127.0.0.1:8898
+[2024-12-09 20:24:41]	[INFO]	[middleware/logger.go:24]	/login	{"status": 200, "method": "GET", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0005119}
+[2024-12-09 20:25:00]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 200, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 11.8458661}
+[2024-12-09 20:25:04]	[INFO]	[middleware/logger.go:24]	/user_profile.html	{"status": 404, "method": "GET", "path": "/user_profile.html", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:25:45]	[INFO]	[middleware/logger.go:24]	/login	{"status": 200, "method": "GET", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0005051}
+[2024-12-09 20:25:45]	[INFO]	[middleware/logger.go:24]	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:25:49]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 200, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0397386}
+[2024-12-09 20:27:55]	[INFO]	[middleware/logger.go:24]	/register	{"status": 200, "method": "GET", "path": "/register", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:27:59]	[INFO]	[middleware/logger.go:24]	/register	{"status": 200, "method": "GET", "path": "/register", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:28:00]	[INFO]	[middleware/logger.go:24]	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:28:04]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/register	{"status": 200, "method": "POST", "path": "/api/v1/auth/register", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0909396}
+[2024-12-09 20:28:05]	[INFO]	[middleware/logger.go:24]	/login	{"status": 200, "method": "GET", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:28:15]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0402246}
+[2024-12-09 20:30:56]	[INFO]	[middleware/logger.go:24]	/login	{"status": 200, "method": "GET", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:30:56]	[INFO]	[middleware/logger.go:24]	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:31:00]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0401523}
+[2024-12-09 20:31:20]	[INFO]	[middleware/logger.go:24]	/login	{"status": 200, "method": "GET", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:31:20]	[INFO]	[middleware/logger.go:24]	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:31:25]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0396457}
+[2024-12-09 20:31:57]	[INFO]	[middleware/logger.go:24]	/login	{"status": 200, "method": "GET", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0010533}
+[2024-12-09 20:31:57]	[INFO]	[middleware/logger.go:24]	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:32:00]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0398604}
+[2024-12-09 20:32:04]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0400909}
+[2024-12-09 20:32:16]	[INFO]	[middleware/logger.go:24]	/login	{"status": 200, "method": "GET", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0010224}
+[2024-12-09 20:32:17]	[INFO]	[middleware/logger.go:24]	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:32:20]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0398322}
+[2024-12-09 20:32:41]	[INFO]	[middleware/logger.go:24]	/login	{"status": 200, "method": "GET", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:32:41]	[INFO]	[middleware/logger.go:24]	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:32:44]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0397241}
+[2024-12-09 20:33:04]	[INFO]	[middleware/logger.go:24]	/login	{"status": 200, "method": "GET", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:33:04]	[INFO]	[middleware/logger.go:24]	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0}
+[2024-12-09 20:33:07]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.042703}
+[2024-12-09 20:33:11]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 400, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0399313}
+[2024-12-09 20:33:14]	[INFO]	[middleware/logger.go:24]	/api/v1/auth/login	{"status": 200, "method": "POST", "path": "/api/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0", "errors": "", "cost": 0.0398698}
